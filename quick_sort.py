@@ -1,3 +1,5 @@
+#这是一个利用python实现的快速排序算法
+
 def quick_sort(arr):
   if len(arr)<2:  #判断数组长度，如果数组里面只有一个元素，则不需要排序，直接返回
     return arr
